@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dine Easy</title>
+</head>
+
+<body class="font-serif">
+    <nav class="bg-red-600 w-full flex justify-between text-white p-4 shadow-lg fixed z-10 top-0 left-0">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold">Dine Easy</a>
+            <div class="flex space-x-8 text-lg font-semibold">
+                <a href="#" class="hover:text-orange-300 hover:text-xl">Home</a>
+                <a href="#menu" class="hover:text-orange-300 hover:text-xl">Menu</a>
+                <a href="#" class="hover:text-orange-300 hover:text-xl">About</a>
+                <a href="#" class="hover:text-orange-300 hover:text-xl">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-r from-orange-200 to-orange-400 text-red-700 h-screen flex flex-col justify-center items-center text-center mt-16">
+        <h1 class="text-5xl font-bold mb-5">Welcome to Our Restaurant</h1>
+        <p class="text-2xl mb-7">Experience the best dining with delicious food and a cozy atmosphere.</p>
+        <a href="#menu" class="bg-white text-red-700 rounded-full shadow-lg py-3 px-6 border-4 border-orange-500 border-double outline-4">Explore Menu</a>
+    </section>
+
+    <section id="menu" class="bg-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-red-700 text-3xl mb-8 font-bold">Our Menu</h2>
+            <div class="grid grid-cols-3 gap-8 mx-5 text-red-800">
+                <!-- Menu Item 1 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="mojito.jpg" alt="Dish1" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Mojito</h3>
+                    <p>Rs.150</p>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="Soup.jpg" alt="Dish2" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Soup</h3>
+                    <p>Rs.189</p>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="Biryani.jpg" alt="Dish3" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Biryani</h3>
+                    <p>Rs.250</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-8 mx-5 my-20 text-red-800">
+                <!-- Menu Item 1 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="pastha.jpg" alt="Dish4" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Pastha</h3>
+                    <p>Rs.250</p>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="icecream.jpg" alt="Dish5" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Ice-Cream</h3>
+                    <p>Rs.180</p>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="dosa.jpg" alt="Dish6" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Dosa</h3>
+                    <p>Rs.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
