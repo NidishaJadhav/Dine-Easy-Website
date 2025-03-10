@@ -7,3 +7,4 @@
 - **Welcome Section**: A welcoming message with a call-to-action button to explore the menu.
 - **Menu Section**: Displays food items with images, names, and prices in a responsive grid layout.
 - **Responsive Design**: Optimized for different screen sizes using Tailwind CSS utilities.
+## Images
