@@ -8,3 +8,4 @@
 - **Menu Section**: Displays food items with images, names, and prices in a responsive grid layout.
 - **Responsive Design**: Optimized for different screen sizes using Tailwind CSS utilities.
 ## Images
+https://github.com/NidishaJadhav/Dine-Easy-Website/issues/1#issue-2906324460
